@@ -1,0 +1,105 @@
+li{
+   list-style: none;
+    margin-right: 50px;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: silver;
+    padding: 30px;
+    border-radius: 30px;
+   width: 1200px;
+    margin: auto;
+    animation: container 5s ease 1 alternate;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.w{
+    height: 50px;
+    border-radius: 30px;
+}
+li:last-child{
+    margin-right: 0;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.a:hover{
+    color: red;
+
+    transition: 3s;
+}
+.v{
+    animation: v 5s ease infinite alternate;
+}
+
+.container:hover{
+   
+    transition: 5s;
+    background-color: violet;
+}
+@keyframes container{
+from{
+    width: 400px;
+}
+to{
+    width: 1200px;
+}
+}
+@keyframes v{
+    from {
+        transform: rotate(deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.container2{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: silver;
+    border-radius: 30px;
+   padding: 30px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
+}
+.img{
+border-radius: 15px;
+}
+.container3{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    background-image: url(s.jpg);
+}
+.container2:hover{
+   
+    transition: 5s;
+    background-color: violet;
+}
+.call{
+    width: 200px;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call:hover{
+ background-color: violet;
+ transition: 3s;
+}
